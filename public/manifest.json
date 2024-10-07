@@ -1,25 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "name": "dashboard",
+  "version": "0.0.1",
+  "size": {
+      "width": 3,
+      "height": 3
+  },
+  "mapping": [],
+  "id": "979a5685-8674-4244-af64-f082ce2f4407",
+  "proxyId": "759ddd26-7494-47b3-a928-fdab9812f99d"
 }
