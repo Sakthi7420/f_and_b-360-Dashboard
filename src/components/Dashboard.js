@@ -1,5 +1,4 @@
 import React from "react";
-import dashboard from '../components/dashboard.css'
 import gwc from "../assets/images/gwc.png"; 
 import Competitor from "../assets/images/Competitor.png";
 import people from "../assets/images/people.png";
