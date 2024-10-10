@@ -10,11 +10,12 @@ import inventory from '../assets/images/inventory.png';
 import marketing from "../assets/images/marketing.png";
 import sales from "../assets/images/sales.png";
 import shop from "../assets/images/shop.png";
+import Domo from '../assets/images/Domo.png'
 import domo from "ryuu.js"
 
 const Dashboard = () => {
   return (
-    <div className="container ">
+    <div className="container max-w-full background-image">
       <div className="flex items-center justify-center p-10">
         <img
           src={gwc}
@@ -26,8 +27,22 @@ const Dashboard = () => {
         </h1>
       </div>
 
-      <div className="w-full h-64 ml-16 md:ml-12">
-        <div className="grid grid-cols-5 gap-3 mx-4 my-14">
+      {/*content*/}
+      <div className="font-poppins text-center min-w-full mt-1 font-extralight text-lg mb-5 bg-gray-400">
+        <marquee className="text-blue-200 hover:text-amber-200">
+          <div className="flex items-center mt-2">
+            <img className="rounded-md w-11 h-11 mr-2 shadow-md" src={Domo} alt="Domo"/>
+            <span>
+              offer comprehensive food analysis services designed to ensure the highest quality, 
+              safety, and compliance for your food products.
+            </span>
+          </div>
+        </marquee>
+      </div>
+
+
+      <div className="w-full h-60 ml-16 md:ml-10">
+        <div className="grid grid-cols-5 gap-3 mx-4 my-14 mr-32">
           <div className="flex flex-col items-center transition-transform transform hover:scale-110 ease-in-out">
             <div
               onClick={() =>
@@ -121,7 +136,7 @@ const Dashboard = () => {
       </div>
 
       <div className="w-full h-64 ml-16 my-12 md:ml-12">
-        <div className="grid grid-cols-5 gap-4 mx-4 my-14">
+        <div className="grid grid-cols-5 gap-4 mx-4 my-14 mr-32">
           <div className="flex flex-col items-center transition-transform transform hover:scale-110 ease-in-out">
             <div
               onClick={() => domo.navigate("https://gwcteq-partner.domo.com/app-studio/1361818643/pages/1406952762", true)
@@ -194,7 +209,7 @@ const Dashboard = () => {
             >
               <img src={shop} alt="shop" className="w-32 h-32 animate-left" />
               <h4 className="text-center font-extralight opacity-80 mt-2 animate-left">
-                F&B 360 Francise
+                F&B 360 Franchise
               </h4>
             </div>
           </div>
